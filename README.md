@@ -1,3 +1,11 @@
+## General
+`tail -f` - Monitor a log file
+`ls -lh` - List files with better information
+`du -h -d1` - List top level directory space usage
+`srun --ntasks=1 --cpus-per-task=1 --partition=int --time=4:00:0 --mem=4G --pty /bin/bash` - Create interactive node on CAMP
+`screen -S atac -m bash -c 'sh working/chris/run_atac.sh; exec sh'` - Run named screen session with wait command at end so window doesnt auto-close
+
+
 ## Containers
 ### Vagrant
 #### Creating a VM
