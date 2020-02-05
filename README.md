@@ -7,6 +7,8 @@
 - `screen -S atac -m bash -c 'sh working/chris/run_atac.sh; exec sh'` - Run named screen session with wait command at end so window doesnt auto-close
 - `screen -ls` - List screens
 - `screen -r 344074` - Attatch to running screen with number before decimal point
+- `pwd` - Show current path
+- `whoami` - Current login username
 
 
 ## Containers
