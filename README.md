@@ -15,6 +15,7 @@
 - `nextflow run <REPO>` - Runs pipeline from github
 - `nextflow pull <REPO>` - Updates repo from github
 - `nextflow run <SCRIPT> -w <WORKDIR>` - Specify work dir
+- `nextflow run <SCRIPT> -ansi-log false` - Change log to each task (good for debugging)
 - `singularity pull  --name <NAME>.img docker://<PATH>:<TAG> > /<TAG>/null` - Pull custom docker image
 - `rm -rf ~/.nextflow/assets/<REPO-PATH>` - Removes downloaded repo if switching branches etc
 - `rm -rf .nextflow* results work` - Clean a working directory if having problems
