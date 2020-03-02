@@ -9,6 +9,7 @@
 - `screen -r 344074` - Attatch to running screen with number before decimal point
 - `pwd` - Show current path
 - `whoami` - Current login username
+- 'tree' - Tree directory structure
 
 ## Nextflow
 - `nextflow run <REPO>` - Runs pipeline from github
