@@ -11,6 +11,9 @@
 - `whoami` - Current login username
 - `tree` - Tree directory structure
 
+## macos
+- `sudo nano /etc/paths` - Edit path on mac 
+
 ## Nextflow
 - `nextflow run <REPO>` - Runs pipeline from github
 - `nextflow pull <REPO>` - Updates repo from github
