@@ -10,6 +10,7 @@
 - `pwd` - Show current path
 - `whoami` - Current login username
 - `tree` - Tree directory structure
+- `ln -s <source> <dest>` - Symbolic link
 
 ## macos
 - `sudo nano /etc/paths` - Edit path on mac 
