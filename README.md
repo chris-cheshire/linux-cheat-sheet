@@ -8,6 +8,7 @@
 - `screen -ls` - List screens
 - `screen -r 344074` - Attatch to running screen with number before decimal point
 - `screen -X -S [session # you want to kill] quit` - kill session
+- Screen `ctrl+a+d` detatch
 - `pwd` - Show current path
 - `whoami` - Current login username
 - `tree` - Tree directory structure
