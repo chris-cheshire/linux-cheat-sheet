@@ -4,15 +4,17 @@
 - `ls -lah` - List files with better information
 - `du -h -d1` - List top level directory space usage
 - `srun --ntasks=1 --cpus-per-task=1 --partition=int --time=4:00:0 --mem=4G --pty /bin/bash` - Create interactive node on CAMP
+- `pwd` - Show current path
+- `whoami` - Current login username
+- `tree` - Tree directory structure
+- `ln -s <source> <dest>` - Symbolic link
+
+## Screen
 - `screen -S nextflow -m bash -c 'sh run.sh; exec sh'` - Run named screen session with wait command at end so window doesnt auto-close
 - `screen -ls` - List screens
 - `screen -r 344074` - Attatch to running screen with number before decimal point
 - `screen -X -S [session # you want to kill] quit` - kill session
 - Screen `ctrl+a+d` detatch
-- `pwd` - Show current path
-- `whoami` - Current login username
-- `tree` - Tree directory structure
-- `ln -s <source> <dest>` - Symbolic link
 
 ## macos
 - `sudo nano /etc/paths` - Edit path on mac 
