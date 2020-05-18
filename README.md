@@ -8,6 +8,7 @@
 - `whoami` - Current login username
 - `tree` - Tree directory structure
 - `ln -s <source> <dest>` - Symbolic link
+- `find ./myfolder -mindepth 1 ! -regex '^./myfolder/test2\(/.*\)?' -delete` - this will delete all folders inside ./myfolder except that ./myfolder/test2 and all its contents will be preserved
 
 ## Screen
 - `screen -S nextflow -m bash -c 'sh run.sh; exec sh'` - Run named screen session with wait command at end so window doesnt auto-close
